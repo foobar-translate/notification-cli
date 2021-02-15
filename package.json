@@ -10,6 +10,9 @@
     "node-schedule": "^2.0.0",
     "sleep": "^6.3.0"
   },
+  "bin": {
+    "notification-cli": "./noc.js",
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
